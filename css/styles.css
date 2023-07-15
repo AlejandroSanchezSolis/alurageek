@@ -1,0 +1,154 @@
+.header_container {
+    align-items: center;
+    gap: 0.625rem;
+
+
+}
+
+.header_logo {
+    width: 11rem;
+
+}
+
+.container_logo-busqueda {
+    display: flex;
+    gap: 2rem;
+}
+
+.busqueda {
+    display: flex;
+}
+
+.busqueda_espacio {
+    display: flex;
+    width: 24.5625rem;
+    padding: 0.5rem 1rem;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 1.25rem;
+    background: var(--preto-05, #F5F5F5);
+    border: none;
+}
+
+.header_ordenar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 11rem;
+    flex-wrap: wrap;
+    align-content: center;
+
+
+}
+
+.btn_login {
+    display: flex;
+    color: #2A7AE4;
+    background: #FFF;
+    width: 11.375rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #2A7AE4;
+
+}
+
+.banner {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 41.15%, rgba(0, 0, 0, 0.80) 100%), url(../public/images/banner.jpg), lightgray 50% / contain no-repeat;
+    display: flex;
+    height: 22rem;
+    padding: 2rem;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+    background-position: 50% 45%;
+
+}
+
+.container-titulo {
+    display: flex;
+    width: 71rem;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.banner-titulo {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 3.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.banner-parrafo {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.btn_consolas {
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    color: #FFF;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: #2A7AE4;
+
+}
+
+.titulo_starwars {
+    color: #464646;
+    font-family: Raleway;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.titulo_contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 12rem 1rem 12rem
+}
+
+.vertodo-flecha,
+a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--azul-100, #2A7AE4);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.boxes-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.starwars-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+
+}
